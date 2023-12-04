@@ -1,6 +1,6 @@
 
 
-const filename = "C:\\Users\\Steph\\OneDrive\\Documents\\AdventofCode\\2023\\Day01.txt"
+const filename = pwd()*"\\InputFiles\\Day01.txt"
 
 # Part One (Only Integers)
 function getCalibrationValue_Part1()
