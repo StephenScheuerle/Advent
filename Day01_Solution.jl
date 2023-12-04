@@ -3,7 +3,7 @@
 const filename = "C:\\Users\\Steph\\OneDrive\\Documents\\AdventofCode\\2023\\Day01.txt"
 
 # Part One (Only Integers)
-function getCalibrationValue()
+function getCalibrationValue_Part1()
     f = readlines(filename)
     calibration_sum = 0
     for i = 1:length(f)
@@ -18,7 +18,7 @@ end
 
 
 # Part Two
-function getCalibrationValue()
+function getCalibrationValue_Part2()
     f = readlines(filename)
     lookup = ["1" "2" "3" "4" "5" "6" "7" "8" "9" "one" "two" "three" "four" "five" "six" "seven" "eight" "nine"]
     calibration_sum = 0;
